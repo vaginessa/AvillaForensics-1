@@ -5,48 +5,47 @@
 # Avilla-Forensics
 Esta es una extensión del proyecto original de [Avilla Forensics](https://github.com/AvillaDaniel/AvillaForensics).
 
-# Descripción
+# Description
 
-Este repositorio contiene el link original del código fuente y los recursos asociados al proyecto Avilla Forensics, desarrollado originalmente por **Daniel Avilla**. Avilla Forensics es una herramienta diseñada para asistir en el análisis forense digital en dispositivos móviles, proporcionando una serie de utilidades automatizadas para la gestión y análisis de datos.
+This repository contains the original link to the source code and resources associated with the Avilla Forensics project, originally developed by Daniel Avilla. Avilla Forensics is a tool designed to assist in digital forensic analysis on mobile devices, providing a series of automated utilities for data management and analysis.
 
-Algunas de las características más destacadas de Avilla Forensics es su capacidad de montar imágenes forenses en una máquina virtual, incorporada en la misma herramienta; conectar varios dispositivos Android & Iphone y analizarlos a la vez; procesar y analizar la evidencia digital incautada en IPED; así cómo tambien la técnica de degradación conocida como APK Downgrade, aplicable en versiones de Android superiores a 11 o 12… y más.
+Some of the most outstanding features of Avilla Forensics is its ability to mount forensic images in a virtual machine, incorporated in the same tool; connect several Android & Iphone devices and analyze them at the same time; process and analyze digital evidence seized in IPED; as well as the downgrading technique known as APK Downgrade, applicable in Android versions higher than 11 or 12... and more.
 
-Avilla Forensics también se destaca por su facilidad de uso y su estructura amigable. Los usuarios pueden navegar fácilmente a través de la interfaz intuitiva del software y acceder a herramientas y características de forma rápida y eficiente.
+Avilla Forensics also stands out for its ease of use and user-friendly structure. Users can easily navigate through the software's intuitive interface and access tools and features quickly and efficiently.
 
-En la versión 3.7 de Avilla Forensics se han implementado numerosas mejoras y nuevas funcionalidades para la extracción y análisis de datos móviles. Esta actualización introdujo un sistema de integridad que genera registros cifrados AES-256 (.avilla), que contienen hashes de los archivos recopilados. Además del cifrado, el archivo .avilla cuenta con una firma HMAC, lo que crea una segunda capa de protección para la integridad de los archivos.
+In Avilla Forensics version 3.7, numerous enhancements and new functionalities for mobile data extraction and analysis have been implemented. This update introduced an integrity system that generates AES-256 encrypted logs (.avilla), which contain hashes of the collected files. In addition to encryption, the .avilla file has an HMAC signature, which creates a second layer of protection for file integrity.
 
-La versión 3.7 mejora significativamente las capacidades de extracción y análisis de datos, ofreciendo nuevas funcionalidades de integridad y herramientas avanzadas para gestionar copias de seguridad y extraer datos de aplicaciones. Estas mejoras hacen que la herramienta sea aún más robusta y eficaz para las investigaciones forenses.
+Version 3.7 significantly enhances data extraction and analysis capabilities, offering new integrity functionality and advanced tools for managing backups and extracting data from applications. These enhancements make the tool even more robust and effective for forensic investigations.
 
-# Autorización
 
 Este proyecto es una bifurcación autorizada del proyecto original de Avilla Forensics. Tenemos permiso explícito del autor original, **Daniel Avilla**, para compartir y modificar el contenido original bajo los términos especificados en la licencia adjunta a este proyecto.
 
-# Licencia
+# License
 
-Este proyecto está licenciado bajo GNU General Public License, que permite el uso, distribución y modificación del software siempre que se cumplan las condiciones establecidas en dicha licencia. Consulte el archivo [LICENSE](https://github.com/UCAPEM-ACADEMY/AvillaForensics?tab=License-1-ov-file) para obtener más detalles.
+This project is licensed under the GNU General Public License, which permits the use, distribution and modification of the software provided the conditions set forth in the license are met. See the [LICENSE](https://github.com/UCAPEM-ACADEMY/AvillaForensics?tab=License-1-ov-file) file for details.
 
-# Avilla Forensics 3.7.1 - Modificada
 
-La versión de **Avilla Forensics 3.7** compartida por **UCAPEM Academy** se ha modificado específicamente para agregar soporte en idioma español, con el objetivo de hacer esta poderosa herramienta más accesible a los usuarios hispanohablantes en todo el mundo. Esta adaptación busca facilitar la comprensión y el uso eficiente del software, asegurando que más profesionales puedan aprovechar al máximo sus funcionalidades.
+# Avilla Forensics 3.7.1 - Modified
 
-## Lista de cambios en la version 3.7.1, ofrecida por UCAPEM Academy:
+The version of **Avilla Forensics 3.7** shared by **UCAPEM Academy** has been specifically modified to add Spanish language support, with the aim of making this powerful tool more accessible to Spanish-speaking users worldwide. This adaptation aims to facilitate the understanding and efficient use of the software, ensuring that more professionals can take full advantage of its functionalities.
 
-* **Transcipción de archivos de audio OPUS:** La versión oficial, solo permite la transcripción de audios OPUS en idioma portugues brasileño, por lo que hemos añadido el idioma español para la transcripción de estos archivos de audio.
-* **Transcripción de archvios de audio MP3, OPUS, WAV, WMA, en IPED:** La indexación de archivos mediante IPED, trae por defecto la transcripción de archivos de audio en portugues brasileño, por lo que tambien hemos añadido el idioma español para la transcripción de estos archivos de audio, mediante el indexador IPED.
+## List of changes in version 3.7.1, offered by UCAPEM Academy:
 
-# Tutorial de Instalación y Uso
+* **Transcription of OPUS audio files:** The official version, only allows the transcription of OPUS audios in Brazilian Portuguese language, so we have added the Spanish language for the transcription of these audio files.
+* Transcription of MP3, OPUS, WAV, WMA audio files in IPED:** The indexing of files through IPED, brings by default the transcription of audio files in Brazilian Portuguese, so we have also added the Spanish language for the transcription of these audio files, through the IPED indexer.
 
-Este Tutorial está dedicado a ayudarles a familiarizarse con todas las funcionalidades del software, desde la instalación básica hasta el manejo de funciones complejas para investigaciones forenses. Además, se ofrecen ejemplos prácticos y soluciones a problemas comunes para asegurar que puedan aplicar eficazmente Avilla Forensics en sus entornos profesionales. Nuestro objetivo es proporcionarles las herramientas y el conocimiento necesario para que puedan aprovechar al máximo esta poderosa herramienta y avanzar en su carrera de forense digital.
-[Acceso al Tutorial](https://github.com/UCAPEM-ACADEMY/AvillaForensics/wiki)
+# Installation and Usage Tutorial
 
-# Certificación Oficial
+This Tutorial is dedicated to help you become familiar with all the functionalities of the software, from the basic installation to the handling of complex functions for forensic investigations. In addition, practical examples and solutions to common problems are provided to ensure that you can effectively apply Avilla Forensics in your professional environments. Our goal is to provide you with the tools and knowledge you need to make the most of this powerful tool and advance your digital forensics career.
+[Access Tutorial](https://github.com/UCAPEM-ACADEMY/AvillaForensics/wiki)
+
+# Official Certification
 
 <p align="center">
   <img width="360" height="360" src="https://www.ucapem.group/site/wp-content/uploads/2024/04/Badged-13.png">
 </p>
+**UCAPEM Academy** is proud to be the exclusive provider of **Official Avilla Forensics Certification training internationally**. With a focus on educational and practical excellence, our courses are designed to prepare professionals in the digital forensics field, equipping them with the skills and knowledge necessary to use Avilla Forensics effectively in their investigations. Through a combination of expert instruction and hands-on experience, UCAPEM Academy ensures that participants not only obtain certification, but also gain an in-depth and applicable understanding of the most advanced forensic techniques, empowering them to meet real-world challenges in the global digital arena.
 
-**UCAPEM Academy** se enorgullece de ser el proveedor exclusivo de la formación para la **Certificación Oficial de Avilla Forensics a nivel internacional**. Con un enfoque en la excelencia educativa y práctica, nuestros cursos están diseñados para preparar a los profesionales en el campo forense digital, dotándolos de las habilidades y conocimientos necesarios para utilizar Avilla Forensics eficazmente en sus investigaciones. A través de una combinación de instrucción experta y experiencia práctica, UCAPEM Academy garantiza que los participantes no solo obtengan la certificación, sino que también adquieran una comprensión profunda y aplicable de las técnicas forenses más avanzadas, habilitándolos para enfrentar desafíos reales en el ámbito digital global.
+## Official Certification Information
 
-## Información de la Certificación Oficial
-
-Para más información, puede contactarse al correo: info@ucapem.academy, o enviar un mensaje por [WhatsApp](https://wa.me/593987121348)
+For more information, please contact us at: info@ucapem.academy, or send a message by [WhatsApp](https://wa.me/593987121348)
