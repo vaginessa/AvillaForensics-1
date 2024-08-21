@@ -3,7 +3,7 @@
 </p>
 
 # Avilla-Forensics
-Esta es una extensión del proyecto original de [Avilla Forensics](https://github.com/AvillaDaniel/AvillaForensics).
+This is an extension of the original [Avilla Forensics] project (https://github.com/AvillaDaniel/AvillaForensics).
 
 # Description
 
@@ -18,7 +18,7 @@ In Avilla Forensics version 3.7, numerous enhancements and new functionalities f
 Version 3.7 significantly enhances data extraction and analysis capabilities, offering new integrity functionality and advanced tools for managing backups and extracting data from applications. These enhancements make the tool even more robust and effective for forensic investigations.
 
 
-Este proyecto es una bifurcación autorizada del proyecto original de Avilla Forensics. Tenemos permiso explícito del autor original, **Daniel Avilla**, para compartir y modificar el contenido original bajo los términos especificados en la licencia adjunta a este proyecto.
+This project is a licensed fork of the original Avilla Forensics project. We have explicit permission from the original author, **Daniel Avilla**, to share and modify the original content under the terms specified in the license attached to this project.
 
 # License
 
